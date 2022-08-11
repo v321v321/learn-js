@@ -1,4 +1,4 @@
-import { assert, expect, test } from 'vitest';
+import { expect, test } from 'vitest';
 import {
   getSumExperience,
   getUsersCount,
@@ -8,106 +8,17 @@ import {
 import { usersData } from './users-data';
 
 test('Get users count', () => {
-  expect(getUsersCount(usersData)).toEqual(100);
+  expect(getUsersCount(usersData)).toMatchSnapshot();
 });
 
 test('Get experience years sum', () => {
-  expect(getSumExperience(usersData)).toEqual(785);
+  expect(getSumExperience(usersData)).toMatchSnapshot();
 });
 
 test('Get users names length sum', () => {
-  expect(getUsersNamesLengthSum(usersData)).toEqual(653);
+  expect(getUsersNamesLengthSum(usersData)).toMatchSnapshot();
 });
 
 test('Get users name->experience map', () => {
-  expect(getUsersNameExperienceMap(usersData)).toStrictEqual({
-    Zemlak: 14,
-    Erdman: 11,
-    Upton: 13,
-    Wisoky: 3,
-    Balistreri: 7,
-    Braun: 13,
-    Walsh: 7,
-    Cummings: 3,
-    Johnston: 8,
-    Dickens: 14,
-    Treutel: 6,
-    Buckridge: 12,
-    Veum: 13,
-    Turcotte: 10,
-    Bartell: 8,
-    Wisozk: 10,
-    Gottlieb: 7,
-    Will: 15,
-    Gleason: 14,
-    Nikolaus: 8,
-    Nolan: 9,
-    Durgan: 4,
-    Mayert: 14,
-    Flatley: 8,
-    Koelpin: 3,
-    Feest: 14,
-    Wolf: 4,
-    Thiel: 10,
-    Collins: 8,
-    Keebler: 10,
-    Hudson: 6,
-    Crona: 7,
-    Kihn: 13,
-    Murray: 8,
-    Rempel: 2,
-    Gleichner: 6,
-    Abernathy: 4,
-    Reichert: 13,
-    Conn: 4,
-    Fadel: 11,
-    Simonis: 15,
-    Ullrich: 7,
-    Jones: 5,
-    Langworth: 4,
-    Lind: 14,
-    Kuphal: 9,
-    Jerde: 4,
-    Fritsch: 4,
-    Stanton: 3,
-    Turner: 9,
-    Gerlach: 3,
-    Boyle: 10,
-    Pfannerstill: 6,
-    Cormier: 9,
-    Padberg: 12,
-    Purdy: 2,
-    Ritchie: 4,
-    Doyle: 12,
-    Breitenberg: 13,
-    Schumm: 9,
-    Pfeffer: 5,
-    VonRueden: 5,
-    Metz: 8,
-    Barton: 10,
-    Ondricka: 9,
-    Corkery: 14,
-    Okuneva: 13,
-    Brown: 13,
-    Pollich: 6,
-    Jacobson: 12,
-    Hills: 5,
-    Lueilwitz: 4,
-    Ziemann: 10,
-    Beier: 8,
-    Lemke: 5,
-    Altenwerth: 2,
-    Keeling: 7,
-    Crist: 4,
-    Deckow: 3,
-    Gusikowski: 7,
-    Stehr: 5,
-    Jast: 9,
-    Nicolas: 4,
-    Hermiston: 2,
-    Moore: 12,
-    Kautzer: 2,
-    Huel: 15,
-    Heidenreich: 8,
-  });
+  expect(getUsersNameExperienceMap(usersData)).toMatchSnapshot();
 });

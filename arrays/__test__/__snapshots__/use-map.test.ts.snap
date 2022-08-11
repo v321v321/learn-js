@@ -1,0 +1,1160 @@
+// Vitest Snapshot v1
+
+exports[`Get users age field 1`] = `
+[
+  {
+    "age": 20,
+    "experience": 14,
+    "name": "Zemlak",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Upton",
+  },
+  {
+    "age": 9,
+    "experience": 3,
+    "name": "Wisoky",
+  },
+  {
+    "age": 18,
+    "experience": 8,
+    "name": "Balistreri",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Braun",
+  },
+  {
+    "age": 14,
+    "experience": 9,
+    "name": "Walsh",
+  },
+  {
+    "age": 11,
+    "experience": 3,
+    "name": "Cummings",
+  },
+  {
+    "age": 16,
+    "experience": 8,
+    "name": "Johnston",
+  },
+  {
+    "age": 21,
+    "experience": 14,
+    "name": "Dickens",
+  },
+  {
+    "age": 13,
+    "experience": 6,
+    "name": "Treutel",
+  },
+  {
+    "age": 21,
+    "experience": 12,
+    "name": "Buckridge",
+  },
+  {
+    "age": 17,
+    "experience": 13,
+    "name": "Veum",
+  },
+  {
+    "age": 18,
+    "experience": 10,
+    "name": "Turcotte",
+  },
+  {
+    "age": 15,
+    "experience": 8,
+    "name": "Bartell",
+  },
+  {
+    "age": 15,
+    "experience": 7,
+    "name": "Gottlieb",
+  },
+  {
+    "age": 19,
+    "experience": 15,
+    "name": "Will",
+  },
+  {
+    "age": 21,
+    "experience": 14,
+    "name": "Gleason",
+  },
+  {
+    "age": 16,
+    "experience": 8,
+    "name": "Nikolaus",
+  },
+  {
+    "age": 10,
+    "experience": 4,
+    "name": "Durgan",
+  },
+  {
+    "age": 20,
+    "experience": 14,
+    "name": "Mayert",
+  },
+  {
+    "age": 15,
+    "experience": 8,
+    "name": "Flatley",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Koelpin",
+  },
+  {
+    "age": 19,
+    "experience": 14,
+    "name": "Feest",
+  },
+  {
+    "age": 15,
+    "experience": 10,
+    "name": "Thiel",
+  },
+  {
+    "age": 15,
+    "experience": 8,
+    "name": "Collins",
+  },
+  {
+    "age": 12,
+    "experience": 6,
+    "name": "Hudson",
+  },
+  {
+    "age": 12,
+    "experience": 7,
+    "name": "Crona",
+  },
+  {
+    "age": 17,
+    "experience": 13,
+    "name": "Kihn",
+  },
+  {
+    "age": 14,
+    "experience": 8,
+    "name": "Murray",
+  },
+  {
+    "age": 8,
+    "experience": 2,
+    "name": "Rempel",
+  },
+  {
+    "age": 15,
+    "experience": 6,
+    "name": "Gleichner",
+  },
+  {
+    "age": 17,
+    "experience": 10,
+    "name": "Keebler",
+  },
+  {
+    "age": 13,
+    "experience": 4,
+    "name": "Abernathy",
+  },
+  {
+    "age": 8,
+    "experience": 4,
+    "name": "Wolf",
+  },
+  {
+    "age": 16,
+    "experience": 11,
+    "name": "Fadel",
+  },
+  {
+    "age": 22,
+    "experience": 15,
+    "name": "Simonis",
+  },
+  {
+    "age": 14,
+    "experience": 7,
+    "name": "Ullrich",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Jones",
+  },
+  {
+    "age": 13,
+    "experience": 4,
+    "name": "Langworth",
+  },
+  {
+    "age": 18,
+    "experience": 14,
+    "name": "Lind",
+  },
+  {
+    "age": 15,
+    "experience": 9,
+    "name": "Kuphal",
+  },
+  {
+    "age": 9,
+    "experience": 4,
+    "name": "Jerde",
+  },
+  {
+    "age": 11,
+    "experience": 4,
+    "name": "Fritsch",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Stanton",
+  },
+  {
+    "age": 15,
+    "experience": 9,
+    "name": "Turner",
+  },
+  {
+    "age": 14,
+    "experience": 9,
+    "name": "Nolan",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Gerlach",
+  },
+  {
+    "age": 15,
+    "experience": 10,
+    "name": "Boyle",
+  },
+  {
+    "age": 18,
+    "experience": 6,
+    "name": "Pfannerstill",
+  },
+  {
+    "age": 16,
+    "experience": 9,
+    "name": "Cormier",
+  },
+  {
+    "age": 19,
+    "experience": 12,
+    "name": "Padberg",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Purdy",
+  },
+  {
+    "age": 11,
+    "experience": 4,
+    "name": "Ritchie",
+  },
+  {
+    "age": 17,
+    "experience": 12,
+    "name": "Doyle",
+  },
+  {
+    "age": 21,
+    "experience": 13,
+    "name": "Reichert",
+  },
+  {
+    "age": 24,
+    "experience": 13,
+    "name": "Breitenberg",
+  },
+  {
+    "age": 17,
+    "experience": 11,
+    "name": "Erdman",
+  },
+  {
+    "age": 15,
+    "experience": 9,
+    "name": "Schumm",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Pfeffer",
+  },
+  {
+    "age": 14,
+    "experience": 5,
+    "name": "VonRueden",
+  },
+  {
+    "age": 16,
+    "experience": 10,
+    "name": "Wisozk",
+  },
+  {
+    "age": 12,
+    "experience": 8,
+    "name": "Metz",
+  },
+  {
+    "age": 16,
+    "experience": 10,
+    "name": "Barton",
+  },
+  {
+    "age": 17,
+    "experience": 9,
+    "name": "Ondricka",
+  },
+  {
+    "age": 21,
+    "experience": 14,
+    "name": "Corkery",
+  },
+  {
+    "age": 20,
+    "experience": 13,
+    "name": "Okuneva",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Brown",
+  },
+  {
+    "age": 20,
+    "experience": 12,
+    "name": "Jacobson",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Hills",
+  },
+  {
+    "age": 13,
+    "experience": 4,
+    "name": "Lueilwitz",
+  },
+  {
+    "age": 17,
+    "experience": 10,
+    "name": "Ziemann",
+  },
+  {
+    "age": 13,
+    "experience": 8,
+    "name": "Beier",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Lemke",
+  },
+  {
+    "age": 12,
+    "experience": 2,
+    "name": "Altenwerth",
+  },
+  {
+    "age": 14,
+    "experience": 7,
+    "name": "Keeling",
+  },
+  {
+    "age": 9,
+    "experience": 4,
+    "name": "Crist",
+  },
+  {
+    "age": 9,
+    "experience": 3,
+    "name": "Deckow",
+  },
+  {
+    "age": 13,
+    "experience": 6,
+    "name": "Pollich",
+  },
+  {
+    "age": 17,
+    "experience": 7,
+    "name": "Gusikowski",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Stehr",
+  },
+  {
+    "age": 13,
+    "experience": 9,
+    "name": "Jast",
+  },
+  {
+    "age": 11,
+    "experience": 4,
+    "name": "Nicolas",
+  },
+  {
+    "age": 11,
+    "experience": 2,
+    "name": "Hermiston",
+  },
+  {
+    "age": 17,
+    "experience": 12,
+    "name": "Moore",
+  },
+  {
+    "age": 9,
+    "experience": 2,
+    "name": "Kautzer",
+  },
+  {
+    "age": 19,
+    "experience": 15,
+    "name": "Huel",
+  },
+  {
+    "age": 19,
+    "experience": 8,
+    "name": "Heidenreich",
+  },
+  {
+    "age": 8,
+    "experience": 4,
+    "name": "Conn",
+  },
+]
+`;
+
+exports[`Get users with more 3 year experience 1`] = `
+[
+  {
+    "experience": 17,
+    "name": "Zemlak",
+  },
+  {
+    "experience": 16,
+    "name": "Upton",
+  },
+  {
+    "experience": 6,
+    "name": "Wisoky",
+  },
+  {
+    "experience": 11,
+    "name": "Balistreri",
+  },
+  {
+    "experience": 16,
+    "name": "Braun",
+  },
+  {
+    "experience": 12,
+    "name": "Walsh",
+  },
+  {
+    "experience": 6,
+    "name": "Cummings",
+  },
+  {
+    "experience": 11,
+    "name": "Johnston",
+  },
+  {
+    "experience": 17,
+    "name": "Dickens",
+  },
+  {
+    "experience": 9,
+    "name": "Treutel",
+  },
+  {
+    "experience": 15,
+    "name": "Buckridge",
+  },
+  {
+    "experience": 16,
+    "name": "Veum",
+  },
+  {
+    "experience": 13,
+    "name": "Turcotte",
+  },
+  {
+    "experience": 11,
+    "name": "Bartell",
+  },
+  {
+    "experience": 10,
+    "name": "Gottlieb",
+  },
+  {
+    "experience": 18,
+    "name": "Will",
+  },
+  {
+    "experience": 17,
+    "name": "Gleason",
+  },
+  {
+    "experience": 11,
+    "name": "Nikolaus",
+  },
+  {
+    "experience": 7,
+    "name": "Durgan",
+  },
+  {
+    "experience": 17,
+    "name": "Mayert",
+  },
+  {
+    "experience": 11,
+    "name": "Flatley",
+  },
+  {
+    "experience": 6,
+    "name": "Koelpin",
+  },
+  {
+    "experience": 17,
+    "name": "Feest",
+  },
+  {
+    "experience": 13,
+    "name": "Thiel",
+  },
+  {
+    "experience": 11,
+    "name": "Collins",
+  },
+  {
+    "experience": 9,
+    "name": "Hudson",
+  },
+  {
+    "experience": 10,
+    "name": "Crona",
+  },
+  {
+    "experience": 16,
+    "name": "Kihn",
+  },
+  {
+    "experience": 11,
+    "name": "Murray",
+  },
+  {
+    "experience": 5,
+    "name": "Rempel",
+  },
+  {
+    "experience": 9,
+    "name": "Gleichner",
+  },
+  {
+    "experience": 13,
+    "name": "Keebler",
+  },
+  {
+    "experience": 7,
+    "name": "Abernathy",
+  },
+  {
+    "experience": 7,
+    "name": "Wolf",
+  },
+  {
+    "experience": 14,
+    "name": "Fadel",
+  },
+  {
+    "experience": 18,
+    "name": "Simonis",
+  },
+  {
+    "experience": 10,
+    "name": "Ullrich",
+  },
+  {
+    "experience": 8,
+    "name": "Jones",
+  },
+  {
+    "experience": 7,
+    "name": "Langworth",
+  },
+  {
+    "experience": 17,
+    "name": "Lind",
+  },
+  {
+    "experience": 12,
+    "name": "Kuphal",
+  },
+  {
+    "experience": 7,
+    "name": "Jerde",
+  },
+  {
+    "experience": 7,
+    "name": "Fritsch",
+  },
+  {
+    "experience": 6,
+    "name": "Stanton",
+  },
+  {
+    "experience": 12,
+    "name": "Turner",
+  },
+  {
+    "experience": 12,
+    "name": "Nolan",
+  },
+  {
+    "experience": 6,
+    "name": "Gerlach",
+  },
+  {
+    "experience": 13,
+    "name": "Boyle",
+  },
+  {
+    "experience": 9,
+    "name": "Pfannerstill",
+  },
+  {
+    "experience": 12,
+    "name": "Cormier",
+  },
+  {
+    "experience": 15,
+    "name": "Padberg",
+  },
+  {
+    "experience": 16,
+    "name": "Purdy",
+  },
+  {
+    "experience": 7,
+    "name": "Ritchie",
+  },
+  {
+    "experience": 15,
+    "name": "Doyle",
+  },
+  {
+    "experience": 16,
+    "name": "Reichert",
+  },
+  {
+    "experience": 16,
+    "name": "Breitenberg",
+  },
+  {
+    "experience": 14,
+    "name": "Erdman",
+  },
+  {
+    "experience": 12,
+    "name": "Schumm",
+  },
+  {
+    "experience": 6,
+    "name": "Pfeffer",
+  },
+  {
+    "experience": 8,
+    "name": "VonRueden",
+  },
+  {
+    "experience": 13,
+    "name": "Wisozk",
+  },
+  {
+    "experience": 11,
+    "name": "Metz",
+  },
+  {
+    "experience": 13,
+    "name": "Barton",
+  },
+  {
+    "experience": 12,
+    "name": "Ondricka",
+  },
+  {
+    "experience": 17,
+    "name": "Corkery",
+  },
+  {
+    "experience": 16,
+    "name": "Okuneva",
+  },
+  {
+    "experience": 16,
+    "name": "Brown",
+  },
+  {
+    "experience": 15,
+    "name": "Jacobson",
+  },
+  {
+    "experience": 8,
+    "name": "Hills",
+  },
+  {
+    "experience": 7,
+    "name": "Lueilwitz",
+  },
+  {
+    "experience": 13,
+    "name": "Ziemann",
+  },
+  {
+    "experience": 11,
+    "name": "Beier",
+  },
+  {
+    "experience": 8,
+    "name": "Lemke",
+  },
+  {
+    "experience": 5,
+    "name": "Altenwerth",
+  },
+  {
+    "experience": 10,
+    "name": "Keeling",
+  },
+  {
+    "experience": 7,
+    "name": "Crist",
+  },
+  {
+    "experience": 6,
+    "name": "Deckow",
+  },
+  {
+    "experience": 9,
+    "name": "Pollich",
+  },
+  {
+    "experience": 10,
+    "name": "Gusikowski",
+  },
+  {
+    "experience": 8,
+    "name": "Stehr",
+  },
+  {
+    "experience": 12,
+    "name": "Jast",
+  },
+  {
+    "experience": 7,
+    "name": "Nicolas",
+  },
+  {
+    "experience": 5,
+    "name": "Hermiston",
+  },
+  {
+    "experience": 15,
+    "name": "Moore",
+  },
+  {
+    "experience": 5,
+    "name": "Kautzer",
+  },
+  {
+    "experience": 18,
+    "name": "Huel",
+  },
+  {
+    "experience": 11,
+    "name": "Heidenreich",
+  },
+  {
+    "experience": 7,
+    "name": "Conn",
+  },
+]
+`;
+
+exports[`Get users with uppercase names 1`] = `
+[
+  {
+    "experience": 14,
+    "name": "ZEMLAK",
+  },
+  {
+    "experience": 13,
+    "name": "UPTON",
+  },
+  {
+    "experience": 3,
+    "name": "WISOKY",
+  },
+  {
+    "experience": 8,
+    "name": "BALISTRERI",
+  },
+  {
+    "experience": 13,
+    "name": "BRAUN",
+  },
+  {
+    "experience": 9,
+    "name": "WALSH",
+  },
+  {
+    "experience": 3,
+    "name": "CUMMINGS",
+  },
+  {
+    "experience": 8,
+    "name": "JOHNSTON",
+  },
+  {
+    "experience": 14,
+    "name": "DICKENS",
+  },
+  {
+    "experience": 6,
+    "name": "TREUTEL",
+  },
+  {
+    "experience": 12,
+    "name": "BUCKRIDGE",
+  },
+  {
+    "experience": 13,
+    "name": "VEUM",
+  },
+  {
+    "experience": 10,
+    "name": "TURCOTTE",
+  },
+  {
+    "experience": 8,
+    "name": "BARTELL",
+  },
+  {
+    "experience": 7,
+    "name": "GOTTLIEB",
+  },
+  {
+    "experience": 15,
+    "name": "WILL",
+  },
+  {
+    "experience": 14,
+    "name": "GLEASON",
+  },
+  {
+    "experience": 8,
+    "name": "NIKOLAUS",
+  },
+  {
+    "experience": 4,
+    "name": "DURGAN",
+  },
+  {
+    "experience": 14,
+    "name": "MAYERT",
+  },
+  {
+    "experience": 8,
+    "name": "FLATLEY",
+  },
+  {
+    "experience": 3,
+    "name": "KOELPIN",
+  },
+  {
+    "experience": 14,
+    "name": "FEEST",
+  },
+  {
+    "experience": 10,
+    "name": "THIEL",
+  },
+  {
+    "experience": 8,
+    "name": "COLLINS",
+  },
+  {
+    "experience": 6,
+    "name": "HUDSON",
+  },
+  {
+    "experience": 7,
+    "name": "CRONA",
+  },
+  {
+    "experience": 13,
+    "name": "KIHN",
+  },
+  {
+    "experience": 8,
+    "name": "MURRAY",
+  },
+  {
+    "experience": 2,
+    "name": "REMPEL",
+  },
+  {
+    "experience": 6,
+    "name": "GLEICHNER",
+  },
+  {
+    "experience": 10,
+    "name": "KEEBLER",
+  },
+  {
+    "experience": 4,
+    "name": "ABERNATHY",
+  },
+  {
+    "experience": 4,
+    "name": "WOLF",
+  },
+  {
+    "experience": 11,
+    "name": "FADEL",
+  },
+  {
+    "experience": 15,
+    "name": "SIMONIS",
+  },
+  {
+    "experience": 7,
+    "name": "ULLRICH",
+  },
+  {
+    "experience": 5,
+    "name": "JONES",
+  },
+  {
+    "experience": 4,
+    "name": "LANGWORTH",
+  },
+  {
+    "experience": 14,
+    "name": "LIND",
+  },
+  {
+    "experience": 9,
+    "name": "KUPHAL",
+  },
+  {
+    "experience": 4,
+    "name": "JERDE",
+  },
+  {
+    "experience": 4,
+    "name": "FRITSCH",
+  },
+  {
+    "experience": 3,
+    "name": "STANTON",
+  },
+  {
+    "experience": 9,
+    "name": "TURNER",
+  },
+  {
+    "experience": 9,
+    "name": "NOLAN",
+  },
+  {
+    "experience": 3,
+    "name": "GERLACH",
+  },
+  {
+    "experience": 10,
+    "name": "BOYLE",
+  },
+  {
+    "experience": 6,
+    "name": "PFANNERSTILL",
+  },
+  {
+    "experience": 9,
+    "name": "CORMIER",
+  },
+  {
+    "experience": 12,
+    "name": "PADBERG",
+  },
+  {
+    "experience": 13,
+    "name": "PURDY",
+  },
+  {
+    "experience": 4,
+    "name": "RITCHIE",
+  },
+  {
+    "experience": 12,
+    "name": "DOYLE",
+  },
+  {
+    "experience": 13,
+    "name": "REICHERT",
+  },
+  {
+    "experience": 13,
+    "name": "BREITENBERG",
+  },
+  {
+    "experience": 11,
+    "name": "ERDMAN",
+  },
+  {
+    "experience": 9,
+    "name": "SCHUMM",
+  },
+  {
+    "experience": 3,
+    "name": "PFEFFER",
+  },
+  {
+    "experience": 5,
+    "name": "VONRUEDEN",
+  },
+  {
+    "experience": 10,
+    "name": "WISOZK",
+  },
+  {
+    "experience": 8,
+    "name": "METZ",
+  },
+  {
+    "experience": 10,
+    "name": "BARTON",
+  },
+  {
+    "experience": 9,
+    "name": "ONDRICKA",
+  },
+  {
+    "experience": 14,
+    "name": "CORKERY",
+  },
+  {
+    "experience": 13,
+    "name": "OKUNEVA",
+  },
+  {
+    "experience": 13,
+    "name": "BROWN",
+  },
+  {
+    "experience": 12,
+    "name": "JACOBSON",
+  },
+  {
+    "experience": 5,
+    "name": "HILLS",
+  },
+  {
+    "experience": 4,
+    "name": "LUEILWITZ",
+  },
+  {
+    "experience": 10,
+    "name": "ZIEMANN",
+  },
+  {
+    "experience": 8,
+    "name": "BEIER",
+  },
+  {
+    "experience": 5,
+    "name": "LEMKE",
+  },
+  {
+    "experience": 2,
+    "name": "ALTENWERTH",
+  },
+  {
+    "experience": 7,
+    "name": "KEELING",
+  },
+  {
+    "experience": 4,
+    "name": "CRIST",
+  },
+  {
+    "experience": 3,
+    "name": "DECKOW",
+  },
+  {
+    "experience": 6,
+    "name": "POLLICH",
+  },
+  {
+    "experience": 7,
+    "name": "GUSIKOWSKI",
+  },
+  {
+    "experience": 5,
+    "name": "STEHR",
+  },
+  {
+    "experience": 9,
+    "name": "JAST",
+  },
+  {
+    "experience": 4,
+    "name": "NICOLAS",
+  },
+  {
+    "experience": 2,
+    "name": "HERMISTON",
+  },
+  {
+    "experience": 12,
+    "name": "MOORE",
+  },
+  {
+    "experience": 2,
+    "name": "KAUTZER",
+  },
+  {
+    "experience": 15,
+    "name": "HUEL",
+  },
+  {
+    "experience": 8,
+    "name": "HEIDENREICH",
+  },
+  {
+    "experience": 4,
+    "name": "CONN",
+  },
+]
+`;

@@ -1,0 +1,212 @@
+// Vitest Snapshot v1
+
+exports[`Get users with 10 years experience and name starts with "S" 1`] = `
+[
+  {
+    "experience": 15,
+    "name": "Simonis",
+  },
+]
+`;
+
+exports[`Get users with experience bigger then 10 years 1`] = `
+[
+  {
+    "experience": 14,
+    "name": "Zemlak",
+  },
+  {
+    "experience": 13,
+    "name": "Upton",
+  },
+  {
+    "experience": 13,
+    "name": "Braun",
+  },
+  {
+    "experience": 14,
+    "name": "Dickens",
+  },
+  {
+    "experience": 12,
+    "name": "Buckridge",
+  },
+  {
+    "experience": 13,
+    "name": "Veum",
+  },
+  {
+    "experience": 15,
+    "name": "Will",
+  },
+  {
+    "experience": 14,
+    "name": "Gleason",
+  },
+  {
+    "experience": 14,
+    "name": "Mayert",
+  },
+  {
+    "experience": 14,
+    "name": "Feest",
+  },
+  {
+    "experience": 13,
+    "name": "Kihn",
+  },
+  {
+    "experience": 11,
+    "name": "Fadel",
+  },
+  {
+    "experience": 15,
+    "name": "Simonis",
+  },
+  {
+    "experience": 14,
+    "name": "Lind",
+  },
+  {
+    "experience": 12,
+    "name": "Padberg",
+  },
+  {
+    "experience": 13,
+    "name": "Purdy",
+  },
+  {
+    "experience": 12,
+    "name": "Doyle",
+  },
+  {
+    "experience": 13,
+    "name": "Reichert",
+  },
+  {
+    "experience": 13,
+    "name": "Breitenberg",
+  },
+  {
+    "experience": 11,
+    "name": "Erdman",
+  },
+  {
+    "experience": 14,
+    "name": "Corkery",
+  },
+  {
+    "experience": 13,
+    "name": "Okuneva",
+  },
+  {
+    "experience": 13,
+    "name": "Brown",
+  },
+  {
+    "experience": 12,
+    "name": "Jacobson",
+  },
+  {
+    "experience": 12,
+    "name": "Moore",
+  },
+  {
+    "experience": 15,
+    "name": "Huel",
+  },
+]
+`;
+
+exports[`Get users with experience smaller then 5 years 1`] = `
+[
+  {
+    "experience": 3,
+    "name": "Wisoky",
+  },
+  {
+    "experience": 3,
+    "name": "Cummings",
+  },
+  {
+    "experience": 4,
+    "name": "Durgan",
+  },
+  {
+    "experience": 3,
+    "name": "Koelpin",
+  },
+  {
+    "experience": 2,
+    "name": "Rempel",
+  },
+  {
+    "experience": 4,
+    "name": "Abernathy",
+  },
+  {
+    "experience": 4,
+    "name": "Wolf",
+  },
+  {
+    "experience": 4,
+    "name": "Langworth",
+  },
+  {
+    "experience": 4,
+    "name": "Jerde",
+  },
+  {
+    "experience": 4,
+    "name": "Fritsch",
+  },
+  {
+    "experience": 3,
+    "name": "Stanton",
+  },
+  {
+    "experience": 3,
+    "name": "Gerlach",
+  },
+  {
+    "experience": 4,
+    "name": "Ritchie",
+  },
+  {
+    "experience": 3,
+    "name": "Pfeffer",
+  },
+  {
+    "experience": 4,
+    "name": "Lueilwitz",
+  },
+  {
+    "experience": 2,
+    "name": "Altenwerth",
+  },
+  {
+    "experience": 4,
+    "name": "Crist",
+  },
+  {
+    "experience": 3,
+    "name": "Deckow",
+  },
+  {
+    "experience": 4,
+    "name": "Nicolas",
+  },
+  {
+    "experience": 2,
+    "name": "Hermiston",
+  },
+  {
+    "experience": 2,
+    "name": "Kautzer",
+  },
+  {
+    "experience": 4,
+    "name": "Conn",
+  },
+]
+`;

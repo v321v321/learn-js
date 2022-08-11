@@ -1,0 +1,24 @@
+// Vitest Snapshot v1
+
+exports[`Get users count with name starts with "S" 1`] = `4`;
+
+exports[`Get users with min experience 1`] = `
+[
+  {
+    "experience": 2,
+    "name": "Rempel",
+  },
+  {
+    "experience": 2,
+    "name": "Altenwerth",
+  },
+  {
+    "experience": 2,
+    "name": "Hermiston",
+  },
+  {
+    "experience": 2,
+    "name": "Kautzer",
+  },
+]
+`;
