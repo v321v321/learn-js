@@ -1,34 +1,29 @@
 import { User } from './__test__/users-data';
 
-// Найти пользователя с найменьшим опытом,
-// после этого найти всех пользователей с таким же опытом
 export const getUsersWithMinExperience = (users: User[]) => {
-  let usersWithMinExperience = [];
-  let minExperience = Number.MAX_SAFE_INTEGER;
-
-  users.forEach((user: User) => {
+  let minExperience = 100
+  users.forEach(user => {
     if (user.experience < minExperience) {
-      minExperience = user.experience;
-      usersWithMinExperience = [user];
-    } else {
-      if (user.experience === minExperience) {
-        usersWithMinExperience.push(user);
-      }
+      minExperience = user.experience
     }
-  });
+  })
 
-  return usersWithMinExperience;
-};
+  let arr = []
 
-// Найти количество пользователей, у которых имя начинается с S
+  users.forEach(user => {
+    if (user.experience === minExperience) {
+      arr.push(user)
+    }
+  })
+  return arr
+}
+
 export const getUsersWithNameStartWithS = (users: User[]) => {
-  let usersCount = 0;
-
-  users.forEach((user: User) => {
+  let count = 0
+  users.forEach(user => {
     if (user.name.startsWith('S')) {
-      usersCount = usersCount + 1;
+      count ++
     }
-  });
-
-  return usersCount;
-};
+  })
+  return count
+}
