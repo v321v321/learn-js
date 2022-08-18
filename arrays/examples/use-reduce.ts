@@ -1,4 +1,4 @@
-import { User } from './__test__/users-data';
+import { User } from '../__test__/users-data';
 
 // Сложить опыт всех пользователей в одно число
 export const getSumExperience = (users) => {

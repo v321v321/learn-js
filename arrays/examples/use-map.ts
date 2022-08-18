@@ -1,4 +1,4 @@
-import { User } from './__test__/users-data';
+import { User } from '../__test__/users-data';
 
 // Привести символы имен пользователей к верхрему регистру (Ivan -> IVAN)
 export const getUsersWithUppercaseNames = (users) => {

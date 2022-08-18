@@ -1,0 +1,196 @@
+// Vitest Snapshot v1
+
+exports[`Test custom filter function 1`] = `
+[
+  {
+    "color": "gold",
+    "fuel": "Diesel",
+    "model": "Nissan Model X",
+  },
+  {
+    "color": "teal",
+    "fuel": "Diesel",
+    "model": "Chevrolet Countach",
+  },
+  {
+    "color": "cyan",
+    "fuel": "Diesel",
+    "model": "Audi PT Cruiser",
+  },
+  {
+    "color": "ivory",
+    "fuel": "Diesel",
+    "model": "Volkswagen PT Cruiser",
+  },
+  {
+    "color": "violet",
+    "fuel": "Diesel",
+    "model": "Ford Beetle",
+  },
+  {
+    "color": "fuchsia",
+    "fuel": "Diesel",
+    "model": "Hyundai Impala",
+  },
+  {
+    "color": "yellow",
+    "fuel": "Diesel",
+    "model": "Chrysler Civic",
+  },
+]
+`;
+
+exports[`Test custom map function 1`] = `
+[
+  {
+    "color": "orchid",
+    "fuel": "Gasoline",
+    "model": "ferrari cruze",
+  },
+  {
+    "color": "fuchsia",
+    "fuel": "Gasoline",
+    "model": "kia challenger",
+  },
+  {
+    "color": "gold",
+    "fuel": "Diesel",
+    "model": "nissan model x",
+  },
+  {
+    "color": "purple",
+    "fuel": "Hybrid",
+    "model": "bentley model s",
+  },
+  {
+    "color": "ivory",
+    "fuel": "Hybrid",
+    "model": "land rover cts",
+  },
+  {
+    "color": "white",
+    "fuel": "Hybrid",
+    "model": "hyundai civic",
+  },
+  {
+    "color": "mint green",
+    "fuel": "Gasoline",
+    "model": "honda fortwo",
+  },
+  {
+    "color": "green",
+    "fuel": "Gasoline",
+    "model": "mazda escalade",
+  },
+  {
+    "color": "teal",
+    "fuel": "Hybrid",
+    "model": "lamborghini xc90",
+  },
+  {
+    "color": "lime",
+    "fuel": "Hybrid",
+    "model": "honda v90",
+  },
+  {
+    "color": "olive",
+    "fuel": "Gasoline",
+    "model": "volvo 2",
+  },
+  {
+    "color": "lavender",
+    "fuel": "Hybrid",
+    "model": "jeep beetle",
+  },
+  {
+    "color": "tan",
+    "fuel": "Gasoline",
+    "model": "aston martin countach",
+  },
+  {
+    "color": "silver",
+    "fuel": "Hybrid",
+    "model": "mercedes benz golf",
+  },
+  {
+    "color": "teal",
+    "fuel": "Diesel",
+    "model": "chevrolet countach",
+  },
+  {
+    "color": "cyan",
+    "fuel": "Diesel",
+    "model": "audi pt cruiser",
+  },
+  {
+    "color": "ivory",
+    "fuel": "Diesel",
+    "model": "volkswagen pt cruiser",
+  },
+  {
+    "color": "violet",
+    "fuel": "Diesel",
+    "model": "ford beetle",
+  },
+  {
+    "color": "lime",
+    "fuel": "Electric",
+    "model": "nissan wrangler",
+  },
+  {
+    "color": "sky blue",
+    "fuel": "Hybrid",
+    "model": "smart 2",
+  },
+  {
+    "color": "pink",
+    "fuel": "Gasoline",
+    "model": "maserati xts",
+  },
+  {
+    "color": "fuchsia",
+    "fuel": "Diesel",
+    "model": "hyundai impala",
+  },
+  {
+    "color": "salmon",
+    "fuel": "Hybrid",
+    "model": "hyundai prius",
+  },
+  {
+    "color": "indigo",
+    "fuel": "Hybrid",
+    "model": "kia xc90",
+  },
+  {
+    "color": "white",
+    "fuel": "Gasoline",
+    "model": "rolls royce civic",
+  },
+  {
+    "color": "violet",
+    "fuel": "Gasoline",
+    "model": "mazda focus",
+  },
+  {
+    "color": "lavender",
+    "fuel": "Hybrid",
+    "model": "maserati malibu",
+  },
+  {
+    "color": "black",
+    "fuel": "Hybrid",
+    "model": "aston martin model 3",
+  },
+  {
+    "color": "yellow",
+    "fuel": "Diesel",
+    "model": "chrysler civic",
+  },
+  {
+    "color": "orchid",
+    "fuel": "Hybrid",
+    "model": "maserati durango",
+  },
+]
+`;
