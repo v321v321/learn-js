@@ -10,7 +10,9 @@ export const getSumExperience = (users) => {
 // Получить количество пользователей
 export const getUsersCount = (users) => {
   return users.reduce((userCount: number) => {
-    return userCount++
+    userCount++
+    
+    return userCount
   }, 0)
 };
 

@@ -27,6 +27,7 @@ test('Sort user by experience DESC', () => {
 
 test('Sort user by experience DESC and then by name length ', () => {
   const testData = [...usersData];
+  sortUsersByExperienceASC(testData);
   sortUsersByNameLength(testData);
   expect(testData).toMatchSnapshot();
 });
