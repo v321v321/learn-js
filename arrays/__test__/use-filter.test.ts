@@ -1,14 +1,14 @@
-import { assert, expect, test } from 'vitest';
+import { expect, test } from 'vitest';
 import {
-  getUsersWithTenYeasExperienceAndNameStartS,
+  getUsersWithGreaterTenYeasExperienceAndNameStartS,
   getUsersWithExperienceBiggerTenYears,
   getUsersWithExperienceSmallerFiveYears,
-} from '../use-filter';
+} from '../examples/use-filter';
 import { usersData } from './users-data';
 
-test('Get users with 10 years experience and name starts with "S"', () => {
+test('Get users with bigger then 10 years experience and name starts with "S"', () => {
   expect(
-    getUsersWithTenYeasExperienceAndNameStartS(usersData)
+    getUsersWithGreaterTenYeasExperienceAndNameStartS(usersData)
   ).toMatchSnapshot();
 });
 

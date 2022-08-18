@@ -1,6 +1,6 @@
 // Vitest Snapshot v1
 
-exports[`Get users with 10 years experience and name starts with "S" 1`] = `
+exports[`Get users with bigger then 10 years experience and name starts with "S" 1`] = `
 [
   {
     "experience": 15,

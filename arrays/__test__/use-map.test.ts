@@ -3,7 +3,7 @@ import {
   getUsersWithUppercaseNames,
   getUsersWithMore3YearExperience,
   getUsersAgeField,
-} from '../use-map';
+} from '../examples/use-map';
 import { usersData } from './users-data';
 
 test('Get users with uppercase names', () => {

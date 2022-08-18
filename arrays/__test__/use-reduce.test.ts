@@ -4,7 +4,7 @@ import {
   getUsersCount,
   getUsersNameExperienceMap,
   getUsersNamesLengthSum,
-} from '../use-reduce';
+} from '../examples/use-reduce';
 import { usersData } from './users-data';
 
 test('Get users count', () => {

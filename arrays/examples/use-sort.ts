@@ -1,4 +1,4 @@
-import { User } from './__test__/users-data';
+import { User } from '../__test__/users-data';
 
 // Отсортировать пользователей по имени
 

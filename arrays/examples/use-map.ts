@@ -1,4 +1,4 @@
-import { User } from './__test__/users-data';
+import { User } from '../__test__/users-data';
 
 export const getUsersWithUppercaseNames = (users: User[]) => users.map(user => {
 

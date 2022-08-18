@@ -1,4 +1,4 @@
-import { User } from './__test__/users-data';
+import { User } from '../__test__/users-data';
 
 export const getUsersWithMinExperience = (users: User[]) => {
   let minExperience = 100

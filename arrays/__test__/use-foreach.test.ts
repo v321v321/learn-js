@@ -2,7 +2,7 @@ import { expect, test } from 'vitest';
 import {
   getUsersWithMinExperience,
   getUsersWithNameStartWithS,
-} from '../use-foreach';
+} from '../examples/use-foreach';
 import { usersData } from './users-data';
 
 test('Get users with min experience', () => {
