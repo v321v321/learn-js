@@ -4,7 +4,7 @@ import {
   sortUsersByExperienceDESC,
   sortUsersByName,
   sortUsersByNameLength,
-} from '../use-sort';
+} from '../examples/use-sort';
 import { usersData } from './users-data';
 
 test('Sort users by name', () => {

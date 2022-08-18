@@ -1,8 +1,8 @@
 // Найти всех пользователей со стажем больше 10 лет
 // и имя начинается с буквы S
-import { User } from './__test__/users-data';
+import { User } from '../__test__/users-data';
 
-export const getUsersWithTenYeasExperienceAndNameStartS = (users) => {
+export const getUsersWithGreaterTenYeasExperienceAndNameStartS = (users) => {
   return users.filter((user: User) => {
     return user.experience > 10 && user.name.startsWith('S');
   });
