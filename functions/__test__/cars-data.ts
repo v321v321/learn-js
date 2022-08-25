@@ -1,7 +1,9 @@
+export type CarFuelType = 'Gasoline' | 'Diesel' | 'Hybrid' | 'Electric';
+
 export interface Car {
   model: string;
   color: string;
-  fuel: 'Gasoline' | 'Diesel' | 'Hybrid' | 'Electric';
+  fuel: CarFuelType;
 }
 
 export const carsData: Car[] = [

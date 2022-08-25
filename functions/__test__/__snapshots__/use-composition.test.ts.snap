@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`Test composition function 1`] = `2`;
