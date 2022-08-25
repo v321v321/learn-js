@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { customMap, customFilter } from '../examples/use-arrow-func';
+import { customMap, customFilter } from '../use-arrow-func';
 import { Car, carsData } from './cars-data';
 
 // Написать функцию map, которая принимает на вход массив
@@ -13,10 +13,18 @@ test('Test custom map function', () => {
   ).toMatchSnapshot();
 });
 
+
 // Написать функцию filter, которая принимает на вход массив
 // и стрелочную функцию для фильтрации массива
 test('Test custom filter function', () => {
+  console.log(carsData)
+  
   expect(
     customFilter(carsData, (car: Car) => car.fuel === 'Diesel')
   ).toMatchSnapshot();
+
+  console.log(customFilter(carsData, (car: Car) => car.fuel === 'Diesel'))
 });
+
+
+
