@@ -1,5 +1,8 @@
 import { expect, test } from 'vitest';
-import { compose } from '../examples/use-composition';
+import {
+  compose,
+  calculateGasolineDieselDiff,
+} from '../examples/use-composition';
 import { Car, carsData } from './cars-data';
 
 // Написать функцию compose, которая принимает на вход массив
@@ -14,4 +17,19 @@ test('Test composition function', () => {
       (elements) => elements.reduce((acc, car) => acc + 1, 0)
     )(carsData)
   ).toMatchSnapshot();
+});
+
+// Написать функцию, которая вычисляет насколько
+// количество всех машин с типом топлива Gasoline
+// больше количества машин с типом топлива Diesel
+
+// Для решения нужно использовать функцию compose, которая
+// принимает две функции: для фильтрации и для рассчета количества
+// const calculateGasolineDieselDiff = {
+//   const gasolineCount = compose(filterFunc('Gasoline'), countFunc)(cardData);
+//   const dieselCount = compose(filterFunc('Diesel'), countFunc)(cardData);
+//   return gasolineCount - dieselCount;
+// }
+test('Test gasoline/disel count diff', () => {
+  expect(calculateGasolineDieselDiff(carsData)).toMatchSnapshot();
 });
