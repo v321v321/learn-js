@@ -1,9 +1,9 @@
 import { expect, test } from 'vitest';
 import {
   compose,
-  calculateGasolineDieselDiff,
-} from '../examples/use-composition';
+  } from '../examples/use-composition';
 import { Car, carsData } from './cars-data';
+import { calculateGasolineDieselDiff } from '../use-composition';
 
 // Написать функцию compose, которая принимает на вход массив
 // функций и возвращает скомпозированную функцию. Скомпозированная

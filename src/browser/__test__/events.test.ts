@@ -39,6 +39,13 @@ describe('basic', async () => {
       text = await page.evaluate((btn) => btn.textContent, button);
 
       expect(text).toBe('count is 1');
+
+      await button.click();
+      text = await page.evaluate((btn) => btn.textContent, button);
+
+      expect(text).toBe('count is 2');
+
+
     } catch (e) {
       console.error(e);
       expect(e).toBeUndefined();

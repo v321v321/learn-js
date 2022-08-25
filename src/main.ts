@@ -1,3 +1,3 @@
-import { initCounter } from './browser/counter/counter';
+//import { initCounter } from './browser/counter/counter';
 
-initCounter();
+//initCounter();

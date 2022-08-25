@@ -1,3 +1,5 @@
 // Vitest Snapshot v1
 
 exports[`Test composition function 1`] = `2`;
+
+exports[`Test gasoline/disel count diff 1`] = `2`;
