@@ -25,23 +25,73 @@ describe('basic', async () => {
     });
   });
 
-  // TODO make more stable
-  test.only('should have the correct title', async () => {
-    try {
-      await page.goto('http://localhost:5173');
-      const button = (await page.$('#counter'))!;
-      expect(button).toBeDefined();
+  test('should have the correct counter value', async () => {
+    await page.goto('http://localhost:5173');
+    const button = (await page.$('#counter'))!;
+    expect(button).toBeDefined();
 
-      let text = await page.evaluate((btn) => btn.textContent, button);
-      expect(text).toBe('count is 0');
+    let text = await page.evaluate((btn) => btn.textContent, button);
+    expect(text).toBe('count is 0');
 
-      await button.click();
-      text = await page.evaluate((btn) => btn.textContent, button);
+    await button.click();
+    text = await page.evaluate((btn) => btn.textContent, button);
 
-      expect(text).toBe('count is 1');
-    } catch (e) {
-      console.error(e);
-      expect(e).toBeUndefined();
-    }
+    expect(text).toBe('count is 1');
+  });
+
+  // Создать форму с полями пользователя: имя, возраст, должность с кнопкой
+  // При нажатии на кнопку в карточке пользователя отображаются новые значения
+  test('should input user card values', async () => {
+    await page.goto('http://localhost:5173');
+
+    const inputValues = {
+      name: 'John Smith',
+      age: '40',
+      position: 'CEO',
+    };
+
+    const submitButtonId = 'user-form-submit-button';
+
+    const inputNameId = 'user-input-name';
+    const inputAgeId = 'user-input-age';
+    const inputPositionId = 'user-input-position';
+
+    const nameId = 'user-name';
+    const ageId = 'user-age';
+    const positionId = 'user-position';
+
+    const inputName = (await page.$(`#${inputNameId}`))!;
+    await inputName.focus();
+    await inputName.type(inputValues.name);
+
+    const inputAge = (await page.$(`#${inputAgeId}`))!;
+    await inputAge.focus();
+    await inputAge.type(inputValues.age);
+
+    const inputPosition = (await page.$(`#${inputPositionId}`))!;
+    await inputPosition.focus();
+    await inputPosition.type(inputValues.position);
+
+    const button = (await page.$(`#${submitButtonId}`))!;
+    await button.click();
+
+    let userNameValue = await page.evaluate(
+      (element) => element.textContent,
+      await page.$(`#${nameId}`)
+    );
+
+    let userAgeValue = await page.evaluate(
+      (element) => element.textContent,
+      await page.$(`#${ageId}`)
+    );
+
+    let userPositionValue = await page.evaluate(
+      (element) => element.textContent,
+      await page.$(`#${positionId}`)
+    );
+
+    expect(userNameValue).toBe(inputValues.name);
+    expect(userAgeValue).toBe(inputValues.age);
+    expect(userPositionValue).toBe(inputValues.position);
   }, 60_000);
 });
