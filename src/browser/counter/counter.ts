@@ -1,4 +1,4 @@
-/*
+
 export function initCounter() {
   console.log('init success')
 
@@ -32,4 +32,3 @@ export function initCounter() {
   buttonInc.onclick = onInc
   buttonDec.onclick = onDec
 }
-*/

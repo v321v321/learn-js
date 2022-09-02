@@ -25,6 +25,7 @@ describe('basic', async () => {
     });
   });
 
+  /*
   test('should have the correct counter value', async () => {
     await page.goto('http://localhost:5173');
     const button = (await page.$('#counter'))!;
@@ -38,6 +39,7 @@ describe('basic', async () => {
 
     expect(text).toBe('count is 1');
   });
+  */
 
   // Создать форму с полями пользователя: имя, возраст, должность с кнопкой
   // При нажатии на кнопку в карточке пользователя отображаются новые значения
