@@ -1,6 +1,8 @@
 // Get users with uppercase names
 export function MINEgetUsersMap1(users) {
-    return users.map(function (user) { return user.name.toUpperCase(), user.experience })
+    return users.map(function (user) {
+        return { name: user.name.toUpperCase(), experience: user.experience }
+    })
 }
 
 //Get users with more 3 year experience
