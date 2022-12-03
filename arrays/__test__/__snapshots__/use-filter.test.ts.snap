@@ -210,3 +210,21 @@ exports[`Get users with experience smaller then 5 years 1`] = `
   },
 ]
 `;
+
+exports[`OnlyRunThis 1`] = `
+[
+  {
+    "experience": 15,
+    "name": "Simonis",
+  },
+]
+`;
+
+exports[`OnlyRunThis Get users with bigger then 10 years experience and name starts with "S" 1`] = `
+[
+  {
+    "experience": 15,
+    "name": "Simonis",
+  },
+]
+`;

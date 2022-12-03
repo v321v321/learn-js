@@ -1,5 +1,450 @@
 // Vitest Snapshot v1
 
+exports[`Add users age field 1`] = `
+[
+  {
+    "age": 20,
+    "experience": 14,
+    "name": "Zemlak",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Upton",
+  },
+  {
+    "age": 9,
+    "experience": 3,
+    "name": "Wisoky",
+  },
+  {
+    "age": 18,
+    "experience": 8,
+    "name": "Balistreri",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Braun",
+  },
+  {
+    "age": 14,
+    "experience": 9,
+    "name": "Walsh",
+  },
+  {
+    "age": 11,
+    "experience": 3,
+    "name": "Cummings",
+  },
+  {
+    "age": 16,
+    "experience": 8,
+    "name": "Johnston",
+  },
+  {
+    "age": 21,
+    "experience": 14,
+    "name": "Dickens",
+  },
+  {
+    "age": 13,
+    "experience": 6,
+    "name": "Treutel",
+  },
+  {
+    "age": 21,
+    "experience": 12,
+    "name": "Buckridge",
+  },
+  {
+    "age": 17,
+    "experience": 13,
+    "name": "Veum",
+  },
+  {
+    "age": 18,
+    "experience": 10,
+    "name": "Turcotte",
+  },
+  {
+    "age": 15,
+    "experience": 8,
+    "name": "Bartell",
+  },
+  {
+    "age": 15,
+    "experience": 7,
+    "name": "Gottlieb",
+  },
+  {
+    "age": 19,
+    "experience": 15,
+    "name": "Will",
+  },
+  {
+    "age": 21,
+    "experience": 14,
+    "name": "Gleason",
+  },
+  {
+    "age": 16,
+    "experience": 8,
+    "name": "Nikolaus",
+  },
+  {
+    "age": 10,
+    "experience": 4,
+    "name": "Durgan",
+  },
+  {
+    "age": 20,
+    "experience": 14,
+    "name": "Mayert",
+  },
+  {
+    "age": 15,
+    "experience": 8,
+    "name": "Flatley",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Koelpin",
+  },
+  {
+    "age": 19,
+    "experience": 14,
+    "name": "Feest",
+  },
+  {
+    "age": 15,
+    "experience": 10,
+    "name": "Thiel",
+  },
+  {
+    "age": 15,
+    "experience": 8,
+    "name": "Collins",
+  },
+  {
+    "age": 12,
+    "experience": 6,
+    "name": "Hudson",
+  },
+  {
+    "age": 12,
+    "experience": 7,
+    "name": "Crona",
+  },
+  {
+    "age": 17,
+    "experience": 13,
+    "name": "Kihn",
+  },
+  {
+    "age": 14,
+    "experience": 8,
+    "name": "Murray",
+  },
+  {
+    "age": 8,
+    "experience": 2,
+    "name": "Rempel",
+  },
+  {
+    "age": 15,
+    "experience": 6,
+    "name": "Gleichner",
+  },
+  {
+    "age": 17,
+    "experience": 10,
+    "name": "Keebler",
+  },
+  {
+    "age": 13,
+    "experience": 4,
+    "name": "Abernathy",
+  },
+  {
+    "age": 8,
+    "experience": 4,
+    "name": "Wolf",
+  },
+  {
+    "age": 16,
+    "experience": 11,
+    "name": "Fadel",
+  },
+  {
+    "age": 22,
+    "experience": 15,
+    "name": "Simonis",
+  },
+  {
+    "age": 14,
+    "experience": 7,
+    "name": "Ullrich",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Jones",
+  },
+  {
+    "age": 13,
+    "experience": 4,
+    "name": "Langworth",
+  },
+  {
+    "age": 18,
+    "experience": 14,
+    "name": "Lind",
+  },
+  {
+    "age": 15,
+    "experience": 9,
+    "name": "Kuphal",
+  },
+  {
+    "age": 9,
+    "experience": 4,
+    "name": "Jerde",
+  },
+  {
+    "age": 11,
+    "experience": 4,
+    "name": "Fritsch",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Stanton",
+  },
+  {
+    "age": 15,
+    "experience": 9,
+    "name": "Turner",
+  },
+  {
+    "age": 14,
+    "experience": 9,
+    "name": "Nolan",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Gerlach",
+  },
+  {
+    "age": 15,
+    "experience": 10,
+    "name": "Boyle",
+  },
+  {
+    "age": 18,
+    "experience": 6,
+    "name": "Pfannerstill",
+  },
+  {
+    "age": 16,
+    "experience": 9,
+    "name": "Cormier",
+  },
+  {
+    "age": 19,
+    "experience": 12,
+    "name": "Padberg",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Purdy",
+  },
+  {
+    "age": 11,
+    "experience": 4,
+    "name": "Ritchie",
+  },
+  {
+    "age": 17,
+    "experience": 12,
+    "name": "Doyle",
+  },
+  {
+    "age": 21,
+    "experience": 13,
+    "name": "Reichert",
+  },
+  {
+    "age": 24,
+    "experience": 13,
+    "name": "Breitenberg",
+  },
+  {
+    "age": 17,
+    "experience": 11,
+    "name": "Erdman",
+  },
+  {
+    "age": 15,
+    "experience": 9,
+    "name": "Schumm",
+  },
+  {
+    "age": 10,
+    "experience": 3,
+    "name": "Pfeffer",
+  },
+  {
+    "age": 14,
+    "experience": 5,
+    "name": "VonRueden",
+  },
+  {
+    "age": 16,
+    "experience": 10,
+    "name": "Wisozk",
+  },
+  {
+    "age": 12,
+    "experience": 8,
+    "name": "Metz",
+  },
+  {
+    "age": 16,
+    "experience": 10,
+    "name": "Barton",
+  },
+  {
+    "age": 17,
+    "experience": 9,
+    "name": "Ondricka",
+  },
+  {
+    "age": 21,
+    "experience": 14,
+    "name": "Corkery",
+  },
+  {
+    "age": 20,
+    "experience": 13,
+    "name": "Okuneva",
+  },
+  {
+    "age": 18,
+    "experience": 13,
+    "name": "Brown",
+  },
+  {
+    "age": 20,
+    "experience": 12,
+    "name": "Jacobson",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Hills",
+  },
+  {
+    "age": 13,
+    "experience": 4,
+    "name": "Lueilwitz",
+  },
+  {
+    "age": 17,
+    "experience": 10,
+    "name": "Ziemann",
+  },
+  {
+    "age": 13,
+    "experience": 8,
+    "name": "Beier",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Lemke",
+  },
+  {
+    "age": 12,
+    "experience": 2,
+    "name": "Altenwerth",
+  },
+  {
+    "age": 14,
+    "experience": 7,
+    "name": "Keeling",
+  },
+  {
+    "age": 9,
+    "experience": 4,
+    "name": "Crist",
+  },
+  {
+    "age": 9,
+    "experience": 3,
+    "name": "Deckow",
+  },
+  {
+    "age": 13,
+    "experience": 6,
+    "name": "Pollich",
+  },
+  {
+    "age": 17,
+    "experience": 7,
+    "name": "Gusikowski",
+  },
+  {
+    "age": 10,
+    "experience": 5,
+    "name": "Stehr",
+  },
+  {
+    "age": 13,
+    "experience": 9,
+    "name": "Jast",
+  },
+  {
+    "age": 11,
+    "experience": 4,
+    "name": "Nicolas",
+  },
+  {
+    "age": 11,
+    "experience": 2,
+    "name": "Hermiston",
+  },
+  {
+    "age": 17,
+    "experience": 12,
+    "name": "Moore",
+  },
+  {
+    "age": 9,
+    "experience": 2,
+    "name": "Kautzer",
+  },
+  {
+    "age": 19,
+    "experience": 15,
+    "name": "Huel",
+  },
+  {
+    "age": 19,
+    "experience": 8,
+    "name": "Heidenreich",
+  },
+  {
+    "age": 8,
+    "experience": 4,
+    "name": "Conn",
+  },
+]
+`;
+
 exports[`Get users age field 1`] = `
 [
   {
