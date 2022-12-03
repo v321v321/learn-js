@@ -16,7 +16,7 @@ export function getUsersWithMinExperience(users) {
     return resultUsers
 }
 
-//Get users count with name starts with "S"
+//Get users count with name starts with "S" CHECK
 export function getUsersWithNameStartWithS(users) {
     let count = 0
     users.forEach(function (user) {
